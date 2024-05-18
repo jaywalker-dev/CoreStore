@@ -55,7 +55,7 @@ import CoreData
 public protocol ImportableObject: DynamicObject {
     
     /**
-     The data type for the import source. This is most commonly an json type, `NSDictionary`, or another external source such as `NSUserDefaults`.
+     The data type for the import source. This is most commonly an json type, `NSDictionary`, or another external source
      */
     associatedtype ImportSource
     
